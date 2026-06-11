@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #26d004;
+
+}
+
+.stew-content {
+    background-color:#cccccc;
+    color:blue;
+    width:700px;
+    margin: auto; 
+    padding:10px;
+    
+}
+h2,h3{
+    color:#805e28;
+}
+
+footer {
+    background-color: #285680;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+ }
+ h1{
+     color:#285680;
+     text-align: center;
+ }
+
+         /* i{color:brown}
+        p{color:red} */
+.stew-content{
+            background-color:lightgray; padding: 20px; border-radius: 10px;
+        }
+.stew-image{
+            float:left; margin: 5px; width: 150px; height: 150px;
+        }
+.stew-image-right{
+            float:left; margin-right: 10px; width: 150px; height: 150px;
+        }

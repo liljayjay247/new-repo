@@ -1,0 +1,58 @@
+
+
+h1{
+    color: #09f915;
+}
+h2{
+    font-size: 18px;
+    color: #f40808;
+}
+section.jpeg{
+    margin-top: 20px;
+    padding: 10px;
+    background-repeat: repeat;
+    background-position: center;
+    border: 1px solid #ccc;
+}
+section.png{
+    margin-top: 20px;
+    padding: 10px;
+    background-repeat: repeat;
+    background-position: center;
+    border: 1px solid #ccc
+    
+
+}section.gif{
+    margin-top: 20px;
+    padding: 10px;
+    background-repeat:repeat;
+    background-position: center;
+    border: 1px solid #ccc;
+
+}
+section{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    clear: both;
+    font-family: 'Courier New', Courier, monospace;color: #1e06f0;
+
+}
+div {
+
+  align-items: right;
+  justify-content: right;
+  border: 1px solid #ccc;
+
+ font-size: 24px;
+    color: #f40808;
+    footer {text-align: center;
+  
+   }
+  }
+  body {
+ background-image: url("valentin-ezGP2EB2x0E-unsplash.jpg");
+ background:scroll;
+ background-size: cover;
+}

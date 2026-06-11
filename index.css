@@ -1,0 +1,16 @@
+/*css*/
+
+body {
+    background-color:blue;
+    font-size: 65px;
+    font-family: italic, bold;
+}
+h1 {
+    background-color:yellow;
+}
+h2 {
+    background-color:green;
+}
+h3  {
+    background-color:red;
+}

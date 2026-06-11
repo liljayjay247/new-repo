@@ -1,0 +1,45 @@
+/*css*/
+
+main {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/theater.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+}
+
+nav p {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(2, 219, 56);
+    text-align: center;
+    color: rgb(206, 228, 7);
+}
+
+header img {
+    src: url(../images/robin.jpg);
+    alt: "Robin Hood";
+    height: 200px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    background-color: rgb(220, 6, 6);
+    border-radius: 0.25rem;
+}

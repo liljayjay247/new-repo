@@ -1,0 +1,107 @@
+
+/* CSS Document */
+
+body {
+    background-image: url(../images/cascade_mountains-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color:#444e5f;
+}
+
+header,section,aside,footer,figure {
+    display: block;
+}
+
+header {
+    /* background-color: white; */
+    color: #44ae5f;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #444e5f;  
+    text-align: center;
+    margin-bottom: 15px;
+}
+nav li {
+    display: inline-block;
+    
+}
+nav a {
+    /* display: block; */
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    background: color #44a5b5;
+    /* width: 100px; */
+}
+
+nav a:hover {
+    background-color: #344e5f
+}
+
+footer {
+    background-color:rgba(68,165,181,0.8);
+    color: white;
+    padding: 9px;
+    clear: both;
+}
+footer p{
+    font-size: 10px;
+}
+.container {
+    /* display: flex; */
+    width: 960px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    gap: 10px;
+}
+.content {
+    padding: 10px;
+    width: 70%;
+    float:left;
+}
+
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    width:20%;
+    float: right;
+    /* flex-shrink: 0; */
+}
+figure{
+    margin: 0;      
+}
+figcaption{
+    font-size: 10px;
+}
+
+.image-right {
+    float: right;
+    margin: 0 0 10px 10px;
+}.image-left {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.arvo-bold-italic {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic;
+}

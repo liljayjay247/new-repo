@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-image: url(../images/images/cascade_mountains-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color:#444e5f
+  }
+
+  header,section,aside,footer,figure {
+  display: block;
+    }
+    header
+     {background-color:white;
+    color:44ae5f;
+    padding: 25px;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+header h2 {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    background-color:#444e5f;  
+    text-align: center;
+    margin-bottom: 15px;
+}

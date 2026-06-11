@@ -1,0 +1,41 @@
+.hero-lopez {
+    background-image:url('../images/sj-041.jpg');
+    background-position:center;
+    background-size:cover;
+    height:400px;   
+    height: 200px;  
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-template-columns: repeat(4, 8fr);
+    grid-gap: 20px;
+}
+.item1 {
+  grid-column: 1 / span 2;
+}
+.item2 {grid-column: 3 / span 2;
+}   
+
+.pic1 {
+  background-image: url("images/sj-041.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}   
+.pic4
+{  background-image: url("images/sj-057.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic2
+{  background-image: url("images/sj-026.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.item3 {grid-column: 1 / span 2;}
+.item4 {grid-column: 3 / span 2;}       
+.item7{ grid-column: 1 / span 4;}

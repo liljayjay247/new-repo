@@ -1,0 +1,108 @@
+/*css/*
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:200px
+    font-size:100em
+    color:blue;
+    font-family:Arial, sans-serif;
+    background:#f2f2f2;
+    padding:20px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    background:white;
+}
+
+/* TOP */
+
+.top-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+    padding:20px;
+}
+
+
+
+.middle-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:20px;
+    padding:20px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.card{
+    border:1px solid #ddd;
+}
+
+.card img{
+    width: 25%;
+    display:block;
+}
+
+.card h3{
+    padding:10px;
+    font-size:16px;
+}
+
+.specs{
+    background:#efefef;
+    padding:20px;
+}
+
+.specs h2{
+    margin-bottom:15px;
+}
+
+.specs ul{
+    list-style:none;
+}
+
+.specs li{
+    margin-bottom:10px;
+}
+
+/* BOTTOM */
+
+.bottom-section{
+    padding:20px;
+}
+
+.hero-image img{
+    width: 25%;
+    display:block;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+ .top-grid{
+        grid:template-columns 2px 1fr;
+    }
+
+ .middle-grid{
+        grid: template columns 2px 1fr;
+    }
+
+ .features{
+        grid: template columns 2px 1fr;
+    }
+
+
+}
