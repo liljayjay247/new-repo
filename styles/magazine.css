@@ -2,7 +2,12 @@
 main{
     padding: 10px;
     box-sizing: border-box;
+
 }
+.img-src{
+    border-image-width:auto;
+}
+
 
 body {
     font: size 45px;
@@ -10,32 +15,69 @@ body {
     background: #f4f4f4;
 }
 
-.hero {
+.pure-u-md-1-4 {
     position: relative;
     max-width: 100px;
-    max-height: 4000;
+    max-height: 100px;
     margin: auto;
     background: white;
     overflow: hidden;
 }
 
-.top-bar {
+.pure-u-md-1-4 {
     font-style:italic;
     background:red; 
-    border:10px solid red;
-    color: white;
+    border: 45px;
+    color: rgb(254, 254, 254);
     padding: 7px;
     font-size: 45px;
-    font-weight: bold;
     text-transform: uppercase;
     
 
 }
-.main-title{
+.pure-u-md-1-4{
     font-size: 45px;
     background-color:white;
-    text-align:center
+
 
 }
+.pure-u-md-1-4{ font-size: 45px;
+ background-color:white;
 
-
+}
+footer{
+    background-color:blue;
+    scroll-margin-top:auto;}
+    @media screen and (max-width:1024px)
+ {
+    body {
+        background-color: red;
+        color:green;
+        font-family:Arial, Helvetica
+    }s
+}
+@media screen and (max-width: 961px)
+{
+    body {
+        background-color: blue;
+        color:white;
+        font-family:Arial, Helvetica
+    }
+}
+@media screen and (max-width: 641px)
+    body {
+        background-color: rgb(6, 240
+        color:purple;
+      }
+      h1 {
+        font-size: 4em;
+      }
+        p {
+            font-size: .5em;
+        }
+@media screen and (max-width: 485px)
+    body {
+        background-color: lightblue;
+        color:hotpink
+    
+}
